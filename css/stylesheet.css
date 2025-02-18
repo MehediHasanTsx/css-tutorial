@@ -1,0 +1,25 @@
+h1{
+    color: rgb(143, 143, 174);
+    /* font-size: 20px; */
+
+}
+
+p{
+    color: rgb(252, 5, 5);
+}
+
+div{
+    width: 200px;
+    height: 200px;
+    background: azure;
+    margin-bottom: 20px;
+}
+
+body{
+    background-color: rgb(27, 67, 87);
+       /* background-image: url('\photo\background.png'); /* Path to your image */
+      /*  background-size: cover; /* Scales image to cover the entire viewport */
+      /*  background-position: center; /* Centers the image */
+       /* background-repeat: no-repeat; /* Prevents repeating */
+    
+}
