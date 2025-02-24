@@ -54,4 +54,20 @@ div{
 #white {
     background-color: rgb(167, 141, 141);
 }
+h2{
+    color: black;
+    
+}
+ol{
+    /* display: flex;
+    flex-direction: column;
+ align-items: center; */
+list-style-position: inside;
+ text-align: center;
+ 
+ /* Use Method 2 if you want the entire list to be a centered block.
+Use Method 3 if you want only the text to be centered while keeping proper number alignment. */
+
+}
+
  
