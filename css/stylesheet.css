@@ -1,3 +1,11 @@
+*{
+    margin: 10px; 
+    padding: 10px;
+    border: 10px;
+    align-items: center;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
 h1{
     color: rgb(143, 143, 174);
     /* font-size: 20px; */
@@ -7,14 +15,11 @@ h1{
 p{
     color: rgb(252, 5, 5);
 }
-
-div{
-    width: 200px;
-    height: 200px;
-    background: azure;
-    margin-bottom: 20px;
+i{
+    color: black;
 }
 
+ 
 body{
     background-color: rgb(27, 67, 87);
        /* background-image: url('\photo\background.png'); /* Path to your image */
@@ -23,3 +28,30 @@ body{
        /* background-repeat: no-repeat; /* Prevents repeating */
     
 }
+a:link{
+    color: black;
+}
+a:visited{
+    color: rgb(10, 240, 98);
+}
+a:active{
+    color: red;
+}
+a:hover{
+    background-color: rgb(87, 85, 180);
+}
+div{
+    background-color: rgb(170, 80, 136);
+    height: auto;
+     border: 5px;
+     border-collapse: collapse;
+}
+.first{
+    align-items: center;
+    color: black;
+    background-color: rgb(40, 40, 134);
+}
+#white {
+    background-color: rgb(167, 141, 141);
+}
+ 
