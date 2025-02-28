@@ -1,10 +1,10 @@
 * {
-    margin: 10px auto;
-    width: 90vw;
+    margin: 2% auto;
+    padding: 1%;
+    width: 95%;
     /* height: 100vh; */
-    padding: 10px;
-    border: 10px;
-    border-collapse: collapse;
+    /* border: 10px; */
+    /* border-collapse: collapse; */
     align-items: center;
     text-align: center;
     font-family: "Times New Roman", Times, serif;
@@ -13,8 +13,28 @@
 }
 
 h1 {
+    text-shadow: 2px 1px 5px rgb(252, 40, 3);
     color: rgba(55, 55, 182, 0.938);
     /* font-size: 20px; */
+    border-style: inset;
+    border-width: 10px;
+    border-color: darkgray;
+    /* border: 12px solid darkgray inset; didn't worked.*/
+    border-radius: 10px;
+    border-bottom: 10px solid red;
+    border-left: 10px solid black;
+    border-right: 10px solid black;
+
+    border-top-style: double;
+    border-left-style: dotted;
+    border-bottom-style: groove;
+    border-right-style: dashed;
+
+    padding: 2%;
+    margin: 2%;
+    margin-bottom: 4%;
+
+
 }
 
 p {
@@ -34,28 +54,13 @@ body {
     /* background-repeat: no-repeat; /* Prevents repeating */
     background-image: url(../photo/background2.png);
     background-attachment: fixed;
-}
-
-a {
-    text-decoration: none;
-    font-size: 20px;
-}
-
-a:link {
-    color: blue;
-}
-
-a:visited {
-    color: rgb(157, 57, 182);
-}
-
-a:active {
-    color: red;
-}
-
-a:hover {
-    background-color: rgb(87, 85, 180, 0.3);
-    text-decoration: underline;
+    /* background-size: cover; */
+    background-position: center;
+    height: 100vh;
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* justify-content: center; */
+    /* align-items: center; */
 }
 
 div {
@@ -80,27 +85,71 @@ div {
     height: 40vh;
 }
 
-h2 {
-    color: black;
+
+a {
+    text-decoration: none;
+    font-size: 20px;
+    width: 15px;
 }
 
-ol {
-    /* display: flex;
-    flex-direction: column;
- align-items: center; */
-    list-style-position: inside;
-    text-align: center;
-
-    /* Use Method 2 if you want the entire list to be a centered block.
-Use Method 3 if you want only the text to be centered while keeping proper number alignment. */
+a:link {
+    color: blue;
 }
 
+a:visited {
+    color: rgb(157, 57, 182);
+}
+
+a:active {
+    color: red;
+}
+
+a:hover {
+    background-color: rgb(87, 85, 180, 0.3);
+    text-decoration: underline;
+    border-radius: 10px;
+}
+
+button{
+    width: 200px;
+    background-color: rgba(15, 15, 14, 0.863);
+    border-color: #f3ab0f;
+    color: rgb(252, 249, 249);
+    cursor: pointer;
+    /* border: 100em; */
+    border-radius: 30px;
+    /* border: -50px; */
+    padding: 10px;
+    margin: 10px;
+    /* background: linear-gradient(to right, #ff7e5f, #feb47b); */
+    box-shadow: 2px 18px 16px;
+    /* transition: transform 0.2s ease-in-out; */
+    border-style: outset;
+    border-width: 5px;
+    /* border-bottom:  8px solid red;
+    border-left:  8px solid rgb(226, 241, 3);
+    border-right:  8px solid rgb(238, 233, 233);
+    border-top:  8px solid rgb(2, 3, 75); */
+
+
+}
+button:hover{
+    background-color: rgba(0, 0, 0, 0.568);
+}
+button:active{
+    transform: scale(1.1);
+}
 hr {
     color: rgba(0, 0, 0, 0.493);
     background-color: rgba(31, 30, 30, 0.856);
     height: 2px;
     border: none;
 }
+
+h2 {
+    color: black;
+}
+
 
 .list,
 ol {
@@ -112,6 +161,18 @@ ol {
 
     /* background-blend-mode: lighten; */
     color: rgb(255, 6, 19);
+    /* text-align: left; */
+}
+
+ol {
+    /* display: flex;
+    flex-direction: column;
+ align-items: center; */
+    list-style-position: inside;
+    text-align: left;
+
+    /* Use Method 2 if you want the entire list to be a centered block.
+Use Method 3 if you want only the text to be centered while keeping proper number alignment. */
 }
 
 .list {
