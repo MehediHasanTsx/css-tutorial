@@ -110,7 +110,7 @@ a:hover {
     border-radius: 10px;
 }
 
-button{
+button {
     width: 200px;
     background-color: rgba(15, 15, 14, 0.863);
     border-color: #f3ab0f;
@@ -133,12 +133,15 @@ button{
 
 
 }
-button:hover{
+
+button:hover {
     background-color: rgba(0, 0, 0, 0.568);
 }
-button:active{
+
+button:active {
     transform: scale(1.1);
 }
+
 hr {
     color: rgba(0, 0, 0, 0.493);
     background-color: rgba(31, 30, 30, 0.856);
