@@ -34,6 +34,8 @@ h1 {
     margin: 2%;
     margin-bottom: 4%;
 
+    /* position: fixed; */
+
 
 }
 
@@ -46,7 +48,7 @@ i {
 }
 
 body {
-    background-color: rgb(27, 67, 87);
+    /* background-color: rgb(27, 67, 87); */
     /* background: url(photo/background.png);
         /* Path to your image */
     /*  background-size: cover; /* Scales image to cover the entire viewport */
