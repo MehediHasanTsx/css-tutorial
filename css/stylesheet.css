@@ -193,7 +193,7 @@ img {
     position: absolute;
     transition: 0.4s;
     /* transform: scale(1.2); */
-    z-index: 1;
+    z-index: 3;
     overflow: hidden;
 }
 
@@ -262,8 +262,9 @@ img:hover {
     text-decoration: none;
     font-size: 20px;
     width: 15px;
-    background-color: #f3dc0fb2;
+    background-color: #e2be0ab2;
     border-radius: 10px;
+    z-index: 2;
 }
 
 .inner::after {
@@ -286,7 +287,67 @@ img:hover {
     text-decoration: none;
     font-size: 20px;
     width: 15px;
-    background-color: #f3dc0fb2;
+    background-color: #f3d52ab2;
     border-radius: 10px;
 
+}
+
+.icon {
+    height: fit-content;
+    width: 80%;
+    background-color: #f3ab0fa9 !important;
+    color: whitesmoke;
+    font-size: 25px;
+
+}
+
+.icon i {
+    display: block;
+    width: fit-content;
+}
+
+.icon i:hover {
+    cursor: pointer;
+    /* width:  fit-content; */
+    color: white;
+    /* transform: rotate(0.2s); */
+
+}
+
+h4 {
+    color: black;
+    text-decoration: underline;
+}
+
+.one {
+    color: white;
+    font-size: 20px;
+}
+
+.two {
+    color: white;
+    font-size: 20px;
+}
+
+.three {
+    color: white;
+    font-size: 20px;
+}
+
+.four {
+    color: rgb(243, 2, 2);
+    font-size: 25px;
+    /* text-decoration: underline; */
+    /* text-transform:unset; */
+}
+
+.problem {
+    background-color: red !important;
+    height: fit-content;
+    width: fit-content;
+
+}
+
+.problem p {
+    color: rgb(201, 255, 8);
 }
