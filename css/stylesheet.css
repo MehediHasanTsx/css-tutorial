@@ -1,7 +1,7 @@
 * {
     margin: 2% auto;
     padding: 1%;
-    width: 95%;
+    width: 90%;
     /* height: 100vh; */
     /* border: 10px; */
     /* border-collapse: collapse; */
@@ -20,7 +20,7 @@ h1 {
     border-width: 10px;
     border-color: darkgray;
     /* border: 12px solid darkgray inset; didn't worked.*/
-    border-radius: 10px;
+    border-radius: 20px;
     border-bottom: 10px solid red;
     border-left: 10px solid black;
     border-right: 10px solid black;
@@ -33,9 +33,33 @@ h1 {
     padding: 2%;
     margin: 2%;
     margin-bottom: 4%;
-
     /* position: fixed; */
+    font-size: 50px;
+    background-color: burlywood;
 }
+h2{
+    width: 500px;
+    background-color: aqua;
+    text-shadow: 2px 1px 3px rgb(252, 40, 3);
+    color: rgba(20, 10, 10);
+    /* font-size: 20px; */
+    border-style: inset;
+    border-width: 10px;
+    border-color: rgb(7, 5, 5);
+    /* border: 12px solid darkgray inset; didn't worked.*/
+    border-radius: 15px;
+    padding: 2%;
+    /* margin: 2%; */
+    margin-bottom: 4%;
+    font-family: Arial, Helvetica, sans-serif;
+    /* font-weight: 300px; */
+    font-size: 30px;
+}
+/* h2:hover{
+    cursor: pointer;
+    opacity: .6;
+    color: rgb(0, 0, 0);
+}*/
 
 p {
     color: rgb(0, 0, 0);
