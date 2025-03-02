@@ -107,7 +107,7 @@ a:active {
 }
 
 a:hover {
-    background-color: rgb(87, 85, 180, 0.3);
+    background-color: rgba(7, 7, 7, 0.349);
     text-decoration: underline;
     border-radius: 10px;
 }
@@ -124,7 +124,7 @@ button {
     padding: 10px;
     margin: 10px;
     /* background: linear-gradient(to right, #ff7e5f, #feb47b); */
-    box-shadow: 2px 18px 16px;
+    /* box-shadow: 2 18 16; */
     /* transition: transform 0.2s ease-in-out; */
     border-style: outset;
     border-width: 5px;
@@ -167,6 +167,8 @@ ol {
     /* background-blend-mode: lighten; */
     color: rgb(255, 6, 19);
     /* text-align: left; */
+    /* border-width: 10px;
+    border-color: black; */
 }
 
 ol {
@@ -182,4 +184,80 @@ Use Method 3 if you want only the text to be centered while keeping proper numbe
 
 .list {
     font-size: 25px;
+    /* border-width: 5px;
+    border-color: #f3ab0f; */
+}
+
+
+
+img {
+
+    opacity: 1;
+
+    height: 50vh;
+    width: 50vw;
+    padding: 0;
+    margin: 0;
+    /* align-items: center; */
+
+}
+
+img:hover {
+    opacity: 0.5;
+}
+
+.service {
+    background-color: rgba(23, 8, 92, 0.753) !important;
+    position: absolute;
+    height: 50vh;
+    width: 50vw;
+    padding: 0;
+    margin: 0;
+
+}
+
+.inner {
+    background-color: rgba(60, 92, 8, 0.753) !important;
+
+    height: 80vh;
+    display: none;
+
+}
+
+.inner h3 {
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 25px;
+    margin-bottom: 0;
+}
+
+.service a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    width: 15px;
+
+    background-color: #f3dc0fb2;
+    border-radius: 10px;
+
+}
+
+.service p {
+    color: white;
+
+}
+
+.service:hover .inner {
+    display: block;
+}
+
+.inner::after {
+    background-color: rgba(23, 8, 92, 0.753) !important;
+    position: absolute;
+    width: 90%;
+    height: 90%%;
+    content: '';
+    top: 0;
+    left: 0;
+    opacity: 0.5;
 }
