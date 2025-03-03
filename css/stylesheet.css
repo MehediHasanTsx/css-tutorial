@@ -254,6 +254,7 @@ img:hover {
     position: absolute;
     left: 25%;
     overflow: hidden;
+    z-index: 999;
 }
 
 .service a {
