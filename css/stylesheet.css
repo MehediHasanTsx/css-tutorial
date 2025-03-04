@@ -8,11 +8,14 @@
     align-items: center;
     text-align: center;
     font-family: "Times New Roman", Times, serif;
-    box-sizing: border-box;
+    /* box-sizing: border-box; */
     /* font-size: 16px; */
 }
 
 h1 {
+    /* width: 90%; */
+    /* left: auto; */
+    /* align-items: center; */
     text-shadow: 2px 1px 5px rgb(252, 40, 3);
     color: rgba(55, 55, 182, 0.938);
     /* font-size: 20px; */
@@ -24,20 +27,19 @@ h1 {
     border-bottom: 10px solid red;
     border-left: 10px solid black;
     border-right: 10px solid black;
-
     border-top-style: double;
     border-left-style: dotted;
     border-bottom-style: groove;
     border-right-style: dashed;
-
-    padding: 2%;
-    margin: 2%;
+    padding: 1%;
+    margin: 2% auto;
     margin-bottom: 4%;
     /* position: fixed; */
     font-size: 50px;
     background-color: burlywood;
 }
-h2{
+
+h2 {
     width: 500px;
     background-color: aqua;
     text-shadow: 2px 1px 3px rgb(252, 40, 3);
@@ -55,6 +57,7 @@ h2{
     /* font-weight: 300px; */
     font-size: 30px;
 }
+
 /* h2:hover{
     cursor: pointer;
     opacity: .6;
@@ -85,6 +88,7 @@ body {
     /* flex-direction: column; */
     /* justify-content: center; */
     /* align-items: center; */
+    /* font-family:  sans-serif; */
 }
 
 div {
@@ -132,6 +136,7 @@ a:hover {
     background-color: rgba(7, 7, 7, 0.349);
     text-decoration: underline;
     border-radius: 10px;
+    /* padding: 30px; */
 }
 
 button {
@@ -217,14 +222,16 @@ img {
     position: absolute;
     transition: 0.4s;
     /* transform: scale(1.2); */
-    z-index: 3;
+    /* z-index: 3; */
     overflow: hidden;
 }
 
 img:hover {
-    opacity: 0.2;
+    opacity: 0;
     /* transform: scale(1.2); */
     overflow: hidden;
+    background-color: black;
+
 }
 
 .service {
@@ -241,7 +248,7 @@ img:hover {
 }
 
 .inner {
-    background-color: rgba(0, 0, 0, 0.973) !important;
+    background-color: rgba(0, 0, 0, 0.644) !important;
     height: 60vh;
     width: 50vw;
     margin: 0;
@@ -254,7 +261,7 @@ img:hover {
     position: absolute;
     left: 25%;
     overflow: hidden;
-    z-index: 999;
+    /* z-index: 999; */
 }
 
 .service a {
@@ -273,6 +280,7 @@ img:hover {
 
 .service:hover .inner {
     display: block;
+    color: black;
 }
 
 .inner h3 {
@@ -375,4 +383,84 @@ h4 {
 
 .problem p {
     color: rgb(201, 255, 8);
+}
+
+#menu {
+    background-color: #30336b;
+    /* left: o; */
+    /* width:  750px; */
+    /* padding: 0; */
+    /* margin: 0; */
+    /* border: 0; */
+}
+
+#menu ul {
+    /* margin: 0; */
+    /* padding: 0; */
+    list-style: none;
+    /* text-align: center; */
+}
+
+#menu li {
+    display: inline;
+    /* box-sizing: border-box; */
+    position: relative;
+
+}
+
+#menu li a {
+    font-size: 15px;
+    /* display: inline-block; */
+    color: white;
+}
+
+#menu li a:hover {
+    text-decoration: none;
+    background-color: #22a6b3;
+    color: black;
+    /* border: 55px; */
+    /* padding: 13px; */
+    border-radius: 0%;
+    /* padding: 2%; */
+    /* display: border -moz-box;
+    margin: 0px;
+    border: 0px;
+    padding: 4px; */
+}
+
+#menu ul ul {
+    position: absolute;
+    background-color: #22a6b3;
+    left: 6px;
+    /* right: 50%; */
+    top: 22px;
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+    width: 100px;
+    /* box-sizing: border-box; */
+    display: none;
+    z-index: 999;
+}
+
+#menu ul ul li {
+    display: block;
+}
+
+#menu ul ul li a:hover {
+    background-color: #f3ab0f7e;
+}
+
+#menu ul li:hover ul {
+    display: block;
+
+}
+
+#menu ul li:hover a {
+    background-color: chocolate;
+}
+
+#menu ul li:hover li a {
+    /* display: none; */
+    background-color: #22a6b3;
 }
