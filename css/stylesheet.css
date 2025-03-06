@@ -464,3 +464,15 @@ h4 {
     /* display: none; */
     background-color: #22a6b3;
 }
+
+.attribute{
+    display: inline-block;
+}
+.attribute a[target] {
+    text-decoration: none;
+    color: red;
+}
+
+.attribute a[target='_self'] {
+    color: palevioletred;
+}
